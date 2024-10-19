@@ -58,6 +58,6 @@ prediction = default_model.predict(input_df_scaled)[0]
 
 # display the prediction
 if prediction == 0:
-    st.subheader('Diabetic')
-else:
     st.subheader('Non-Diabetic')
+else:
+    st.subheader('Diabetic')
