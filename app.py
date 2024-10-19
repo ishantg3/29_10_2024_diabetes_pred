@@ -15,8 +15,8 @@ from sklearn.metrics import  accuracy_score, confusion_matrix, precision_score, 
 st.set_page_config(page_title='Diabetes Prediction', layout='wide', initial_sidebar_state='expanded')
 
 # load the pickle file
-default_model = pickle.load(open(r'pickle_files/rfc_model.pkl', 'rb'))
-default_scaler = pickle.load(open(r'pickle_files\scaler.pkl', 'rb'))
+default_model = pickle.load(open('pickle_files/rfc_model.pkl', 'rb'))
+default_scaler = pickle.load(open('pickle_files\scaler.pkl', 'rb'))
 
 
 # user input from client
